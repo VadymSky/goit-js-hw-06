@@ -1,19 +1,19 @@
 const customer = {
-  username: "Mango",
+  name: "Mango",
   balance: 24000,
   discount: 0.1,
   orders: ["Burger", "Pizza", "Salad"],
   // Change code below this line
-  getBalance() {
+  Balance() {
     return this.balance;
   },
-  getDiscount() {
+  Discount() {
     return this.discount;
   },
   setDiscount(value) {
     this.discount = value;
   },
-  getOrders() {
+  Orders() {
     return this.orders;
   },
   addOrder(cost, order) {
