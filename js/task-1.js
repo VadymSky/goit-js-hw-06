@@ -13,7 +13,7 @@ const customer = {
   setDiscount(value) {
     this.discount = value;
   },
-  Orders() {
+   getOrders() {
     return this.orders;
   },
   addOrder(cost, order) {
