@@ -1,5 +1,5 @@
 const customer = {
-  name: "Mango",
+  username: "Mango",
   balance: 24000,
   discount: 0.1,
   orders: ["Burger", "Pizza", "Salad"],
