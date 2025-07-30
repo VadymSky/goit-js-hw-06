@@ -7,7 +7,7 @@ const customer = {
   getBalance() {
     return this.balance;
   },
-  Discount() {
+  getDiscount() {
     return this.discount;
   },
   setDiscount(value) {
